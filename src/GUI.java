@@ -33,7 +33,8 @@ public class GUI extends JFrame {
         
         JRadioButton c1 = new JRadioButton("Klo");
         JRadioButton c2 = new JRadioButton("On");
-        JRadioButton c3 = new JRadioButton("You");
+
+        JRadioButton c3 = new JRadioButton("Hi");
       
 
         //Group the radio buttons.
@@ -48,10 +49,10 @@ public class GUI extends JFrame {
         checkboxes.add(c2);
         checkboxes.add(c3);
 
-        panel.add(new JLabel("Text"));
+        panel.add(new JLabel("Hallo"));
         panel.add(checkboxes);
-        panel.add(new JLabel("Was"));
-        panel.add(new JButton("Button 3"));
+        panel.add(new JLabel("Welt"));
+        panel.add(new JButton("Tschüss"));
         
         
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
