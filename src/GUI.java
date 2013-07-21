@@ -31,9 +31,9 @@ public class GUI extends JFrame {
         panel.setLayout(new GridLayout(2,3));
  
         
-        JRadioButton c1 = new JRadioButton("None");
-        JRadioButton c2 = new JRadioButton("Money");
-        JRadioButton c3 = new JRadioButton("Tits");
+        JRadioButton c1 = new JRadioButton("Klo");
+        JRadioButton c2 = new JRadioButton("On");
+        JRadioButton c3 = new JRadioButton("You");
       
 
         //Group the radio buttons.
