@@ -44,7 +44,7 @@ public class GUI extends JFrame {
         group.add(c3);
         
         JPanel checkboxes = new JPanel();
-        checkboxes.setLayout(new GridLayout(1,3));
+        checkboxes.setLayout(new GridLayout(3,1));
         checkboxes.add(c1);
         checkboxes.add(c2);
         checkboxes.add(c3);
