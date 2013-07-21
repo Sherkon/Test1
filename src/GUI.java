@@ -68,7 +68,6 @@ public class GUI extends JFrame {
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(new Runnable() {
-            @Override
             public void run() {
             	GUI ex = new GUI();
                 ex.setVisible(true);
