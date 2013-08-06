@@ -19,11 +19,6 @@ public class GUI extends JFrame {
 
     public GUI() {
         
-        initUI();
-    }
-    
-    private void initUI() {
-
         setTitle("No Sleep");
 
 
@@ -67,13 +62,10 @@ public class GUI extends JFrame {
     }
 
     public static void main(String[] args) {
-
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
+ 
             	GUI ex = new GUI();
                 ex.setVisible(true);
             }
-        });
+        }
 
-    }
-}
+ 
